@@ -3,7 +3,9 @@ package com.example.university.model;
 import jakarta.persistence.*;
 import java.util.List;
 
+import lombok.Data;
 @Entity
+@Data
 public class Student {
 
     @Id
