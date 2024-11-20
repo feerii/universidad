@@ -20,5 +20,14 @@ public class Student {
                inverseJoinColumns = @JoinColumn(name = "subject_id"))
     private List<Subject> subjects;
 
-    // Getters and Setters
+    public void setId(String id) {
+        this.id = id;
+    }
+    public void setfirstName(String firstName) {
+        this.firstName = firstName;
+    }
+    public void setlastName(String lastName) {
+        this.lastName = lastName;
+    }
+            
 }
